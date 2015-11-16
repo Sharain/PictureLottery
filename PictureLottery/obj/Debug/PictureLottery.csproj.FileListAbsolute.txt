@@ -1,0 +1,12 @@
+C:\Git\picture-lottery\PictureLottery\PictureLottery\bin\Debug\PictureLottery.exe.config
+C:\Git\picture-lottery\PictureLottery\PictureLottery\bin\Debug\PictureLottery.exe.manifest
+C:\Git\picture-lottery\PictureLottery\PictureLottery\bin\Debug\PictureLottery.application
+C:\Git\picture-lottery\PictureLottery\PictureLottery\bin\Debug\PictureLottery.exe
+C:\Git\picture-lottery\PictureLottery\PictureLottery\bin\Debug\PictureLottery.pdb
+C:\Git\picture-lottery\PictureLottery\PictureLottery\obj\Debug\PictureLottery.Form1.resources
+C:\Git\picture-lottery\PictureLottery\PictureLottery\obj\Debug\PictureLottery.Properties.Resources.resources
+C:\Git\picture-lottery\PictureLottery\PictureLottery\obj\Debug\PictureLottery.csproj.GenerateResource.Cache
+C:\Git\picture-lottery\PictureLottery\PictureLottery\obj\Debug\PictureLottery.exe.manifest
+C:\Git\picture-lottery\PictureLottery\PictureLottery\obj\Debug\PictureLottery.application
+C:\Git\picture-lottery\PictureLottery\PictureLottery\obj\Debug\PictureLottery.exe
+C:\Git\picture-lottery\PictureLottery\PictureLottery\obj\Debug\PictureLottery.pdb

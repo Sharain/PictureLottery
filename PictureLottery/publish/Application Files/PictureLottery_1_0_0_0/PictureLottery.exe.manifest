@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PictureLottery.exe" version="1.0.0.0" publicKeyToken="c5790fd74d421ac6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PictureLottery" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PictureLottery.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PictureLottery.exe" size="448512">
+      <assemblyIdentity name="PictureLottery" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VulDxC5hzPslBvWbBLjOwg9zYmT9DTUFM+KcIIDdzKc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PictureLottery.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NEOHOMEI7WIN10\neoan" issuerKeyHash="4f91e933e0031dadf27220189663092344a238cb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Yl5+J5HzI/5iSz1LjVWWPTpucK1prRsAlZ3LenD/slg=</DigestValue></Reference></SignedInfo><SignatureValue>Sfkev2J4eB4R/BbKq/oNecK27KcW6sqE3dHpvqKhhLhdCicpyefb/zu5JCVOgvm1bBfvqk6A8cuqBLFq+mPELVO2IuKI80lM8F9ixLSA3ahkOO5kBCuo4aP9j7hXq7idvOpsbjLFham6Ajdh+iiDVa7kz4L7a7QmjDj7Ep3YfHM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kOWEBqxvhdHiEq6vSh3XevIn5exudpuUR4aRQ7DTeDWgb3+5K7yq0xcfwN/vfnLzKvMb61rIFMLcpozSrfJWoYzJ0LNYKuQjp2lMJzyGOn6/1lsF9LTmylpRgh5vCWoIDNDxxyb1pWdML3NTqqZ9lop3dGawSsZJSl30Ty5ZFNE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="58b2ff707acb9d95001bad69ad706e3a3d96558d4b3d4b62fe23f391277e5e62" Description="" Url=""><as:assemblyIdentity name="PictureLottery.exe" version="1.0.0.0" publicKeyToken="c5790fd74d421ac6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NEOHOMEI7WIN10\neoan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>g8uavMOhwLTr9rcFMvBBHLkE6Lznl7gkQCzgldtYepA=</DigestValue></Reference></SignedInfo><SignatureValue>eY3IfC/kYLobK/cD/xHFC3ekV02AHNnKFOU/ebJt0pXSBt3qXZk4InwG9DVaiNHpCWrhmLQwkymHXocJJW87rC2dlz8COEbLVj9GYTvpaOwEFpHnvDxm0WOQUjn/W0+S9QksN1iDODCeEXLappDm7cWIGRWwsqiUEjNVWad8pLs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kOWEBqxvhdHiEq6vSh3XevIn5exudpuUR4aRQ7DTeDWgb3+5K7yq0xcfwN/vfnLzKvMb61rIFMLcpozSrfJWoYzJ0LNYKuQjp2lMJzyGOn6/1lsF9LTmylpRgh5vCWoIDNDxxyb1pWdML3NTqqZ9lop3dGawSsZJSl30Ty5ZFNE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQbsbto9Wm/5RAjvUCmGzrEDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigATgBFAE8ASABPAE0ARQBJADcAVwBJAE4AMQAwAFwAbgBlAG8AYQBuMB4XDTE1MTExNjEzMjA0MFoXDTE2MTExNTE5MjA0MFowMzExMC8GA1UEAx4oAE4ARQBPAEgATwBNAEUASQA3AFcASQBOADEAMABcAG4AZQBvAGEAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAkOWEBqxvhdHiEq6vSh3XevIn5exudpuUR4aRQ7DTeDWgb3+5K7yq0xcfwN/vfnLzKvMb61rIFMLcpozSrfJWoYzJ0LNYKuQjp2lMJzyGOn6/1lsF9LTmylpRgh5vCWoIDNDxxyb1pWdML3NTqqZ9lop3dGawSsZJSl30Ty5ZFNECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBP4hE6c69YHWvNvY420XnJ7WfNANfuQ4ZMXiEWKSX+FS8XAfiSi+lSSD6mSDWiMkZv0cAG0QCa4gkcDY+CAB35HDWc/T1cu0i23J3hYA4OZd3hDz87BGqYX9qUWMh7Z3NOMFD6fPL/6XG+OVdnMsM2FSnqwLpcxb0IMfAv9WdpZA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
